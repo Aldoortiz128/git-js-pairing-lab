@@ -53,3 +53,12 @@ multiply(5, 6)
     
 }
 add(8,8)
+
+function isNegative(num) {
+    if (num >= 0) {console.log ("false")}
+    else if (num < 0) {console.log ("true")}
+    else {console.log ("false")
+}
+}
+
+isNegative(4)
