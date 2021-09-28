@@ -7,7 +7,8 @@ function fivetoHundred(){
     
 }
 
-fivetoHundred()
+fivetoHundred();
+
 function multiplesOfThree(){
     for(let i=1; i < 100; i++){
         if(i % 3 === 0 ){
@@ -17,3 +18,14 @@ function multiplesOfThree(){
     }
 }
 multiplesOfThree();
+
+function multiplesofThreeorFive(){
+    for (let i=1; i < 100; i++) {
+        if (i % 3 === 0 || i % 5 === 0) {
+            console.log(i);
+        }
+    }
+}
+multiplesofThreeorFive();
+        
+    
