@@ -91,3 +91,11 @@ console.log("The largest number is " + largest);
 
 }
 biggest(4,7,12)
+
+function printTime() {
+    var d = new Date();
+    var n = d.toLocaleTimeString();
+console.log(d);
+}
+
+printTime();
