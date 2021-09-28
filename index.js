@@ -27,9 +27,20 @@ function multiplesofThreeorFive(){
     }
 }
 multiplesofThreeorFive();
+
 function untilNum(num){
     for(let i=1; i < num + 1;i++ ){
         console.log(i);
     }
 }
     untilNum(10)
+    
+    
+function multiply (num1, num2) {
+    const product = num1*num2
+    console.log(product)
+}
+
+multiply(5, 6)
+    
+
