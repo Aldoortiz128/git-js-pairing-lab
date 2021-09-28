@@ -42,5 +42,14 @@ function multiply (num1, num2) {
 }
 
 multiply(5, 6)
+    function add(num1,num2){
+        let sum = num1 + num2;
+         var triplesum = sum * 3
+        if( num1 === num2){
+           console.log(triplesum);
+        } else {
+            console.log(sum);
+        }
     
-
+}
+add(8,8)
