@@ -62,3 +62,8 @@ function isNegative(num) {
 }
 
 isNegative(4)
+function triangleArea(base,height){
+    var product = base * height / 2
+    console.log(product);
+}
+triangleArea(4,4)
