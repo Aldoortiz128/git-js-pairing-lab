@@ -27,5 +27,9 @@ function multiplesofThreeorFive(){
     }
 }
 multiplesofThreeorFive();
-        
-    
+function untilNum(num){
+    for(let i=1; i < num + 1;i++ ){
+        console.log(i);
+    }
+}
+    untilNum(10)
