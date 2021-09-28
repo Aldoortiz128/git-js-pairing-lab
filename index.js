@@ -67,3 +67,10 @@ function triangleArea(base,height){
     console.log(product);
 }
 triangleArea(4,4)
+
+function betweenTwentyandFourty(num){
+if (num >= 20 && num <=40) {console.log("true")}
+else {console.log("false")}
+}
+
+betweenTwentyandFourty(20)
